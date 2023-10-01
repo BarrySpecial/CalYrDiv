@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 # Streamlit title, welcome and file uploader
-st.title("DeGiro dividend calculator")
-st.markdown("Hello! This is a web-app that calculates the amount of dividend that you've "
+st.title("CalYrDiv")
+st.markdown("Hello! This is a web app that calculates the amount of dividend that you've "
             "received from your DeGiro stock portfolio.")
 with st.expander("Instructions"):
     st.markdown("Log in with your DeGiro account, go to 'inbox' and select 'account statement'. Select the "
