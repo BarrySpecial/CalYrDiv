@@ -5,10 +5,10 @@ import pandas as pd
 st.title("DeGiro dividend calculator")
 st.markdown("Hello! This is a web-app that calculates the amount of dividend that you've "
             "received from your DeGiro stock portfolio.")
-st.markdown("## Instructions")
-st.markdown("Log in with your DeGiro account, go to 'inbox' and select 'account statement'. Select the "
-            "start and end date. Then export as .csv file. Use the file selector below to select or drag and drop "
-            "the file from your downloads folder. ")
+with st.expander("Instructions"):
+    st.markdown("Log in with your DeGiro account, go to 'inbox' and select 'account statement'. Select the "
+                "start and end date. Then export as .csv file. Use the file selector below to select or drag and drop "
+                "the file from your downloads folder. ")
 st.markdown("")
 
 uploaded_file = st.file_uploader("Select your account.csv file", type=".csv")
