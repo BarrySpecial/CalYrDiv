@@ -48,7 +48,3 @@ if uploaded_file:
     st.markdown(f"Your dividend in US Dollars is $ {div_currency_USD:.2f}")
     st.markdown("### Total dividend per stock")
     st.write(div_per_stock)
-
-    # stocks = df2["Product"].unique()
-    # option = st.selectbox("Select stock", stocks)
-    # # if option = option 1
