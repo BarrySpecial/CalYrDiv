@@ -20,6 +20,10 @@ Good question! Of course there are numerous apps similar to this one. However, s
 
 It’s very simple! First, log in with your DeGiro account, go to 'inbox' and select 'account statement'. Select the start and end date. Then export as .csv file. Use the file selector in the program to select or drag and drop the file from your downloads folder. The program should go to work right away!
 
+## Two versions?
+
+Yes! V0.9 is a .py file that can be used within an IDE and is the original code. The official version is made for deploying on Streamlit.
+
 ## What’s next?
 
 Next, I’ll be adding different features and other relevant data.
