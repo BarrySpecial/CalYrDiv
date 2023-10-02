@@ -24,9 +24,9 @@ if uploaded_file:
     try:
         df.drop(df.columns[[1, 2, 6, 9, 10, 11]], axis=1, inplace=True)
     except:
-        st.markdown("## Error")
-        st.write("The file you uploaded is a not a DeGiro file. Please select the right file and try again. Refer "
-                 "to the instructions for more information.")
+        st.markdown("## Oops!")
+        st.write("It looks like the file you uploaded is a not a DeGiro file. Please select the right file and try "
+                 "again. See the instructions for more information.")
         st.stop()
 
     # Filter dataframe to only show rows that contain "Dividend"
